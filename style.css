@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --orange: #FEA301;
+    --white: #FFFFFF;
+    --blue: #01ACFD;
+    --black: #111111;
+}
+
+/* shared styles */
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* navbar section styles */
+nav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav .logo {
+    align-items: center;
+    gap: 11px;
+}
+
+nav .logo .img {
+    width: 62px;
+    height: 62px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--black);
+}
+
+nav>ul {
+    align-items: center;
+    gap: 32px;
+}
+
+nav>ul>a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+nav .button {
+    font-weight: 600;
+    font-size: 20px;
+    height: 50px;
+    padding: 10px 60px;
+    border-radius: 12px;
+    border: none;
+    color: var(--white);
+    background-color: var(--orange);
+}
+#icon,
+hr {
+    display: none;
+}

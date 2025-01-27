@@ -550,7 +550,9 @@ footer .div3 .display-flex {
         font-size: 10px;
         padding: 25px 20px 33px 23px;
     }
-
+    .marq{
+        display: none;
+    }
     footer .div1 h1 {
         font-size: 36px;
     }
